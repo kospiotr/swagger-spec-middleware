@@ -1,9 +1,32 @@
 {
   "name": "swagger-spec-middleware",
+  "description": " Swagger Spec hosting middleware for ExpressJS ",
   "version": "1.2.0",
   "engines": {
     "node": ">= 0.10.0"
   },
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/kospiotr/swagger-spec-middleware.git"
+  },
+  "homepage": "https://github.com/kospiotr/swagger-spec-middleware",
+  "bugs": {
+    "url" : "https://github.com/kospiotr/swagger-spec-middleware/issues"
+  },
+  "license": {
+    "type": "Apache-2.0",
+    "url": "https://www.apache.org/licenses/LICENSE-2.0"
+  },
+  "author": {
+    "name" : "Piotr Kosmowski",
+    "url" : "https://kospiotr.github.io"
+  },
+  "contributors": [
+    {
+      "name": "Rémi Becheras",
+      "url": "https://rbecheras.github.io"
+    }
+  ],
   "devDependencies": {
     "body-parser": "^1.12.2",
     "chai": "^2.1.1",
